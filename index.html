@@ -41,6 +41,13 @@
             border-left: 4px solid #ffc107;
             margin: 15px 0;
         }
+        .face-data-section {
+            background-color: #e8f5e8;
+            padding: 20px;
+            border-left: 4px solid #28a745;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
         .contact {
             background-color: #f8f9fa;
             padding: 20px;
@@ -91,9 +98,34 @@
         <li><strong>Developer:</strong> PersonaLens Team</li>
     </ul>
 
-    <h2>2. Information We Collect</h2>
+    <h2>2. Face Data Collection - Important Notice</h2>
+    <div class="face-data-section">
+        <h3>PersonaLens Does NOT Collect Face Data</h3>
+        <p><strong>What face data does PersonaLens collect?</strong> <em>NONE - PersonaLens does not collect, process, or store any face data whatsoever.</em></p>
+        
+        <p><strong>Explanation of face data usage:</strong> <em>N/A - PersonaLens does not use face data in any capacity. Our app analyzes only text-based chat conversations exported from WhatsApp.</em></p>
+        
+        <p><strong>Face data sharing with third parties:</strong> <em>N/A - Since no face data is collected, none is shared with any third parties.</em></p>
+        
+        <p><strong>Face data storage and retention:</strong> <em>N/A - No face data is stored or retained because none is collected.</em></p>
+        
+        <p><strong>What PersonaLens Actually Analyzes:</strong></p>
+        <ul>
+            <li>✅ Text messages from WhatsApp chat exports</li>
+            <li>✅ Communication patterns and timestamps</li>
+            <li>✅ Language style and conversation flow</li>
+            <li>❌ NO facial recognition or detection</li>
+            <li>❌ NO camera access or photo analysis</li>
+            <li>❌ NO biometric data collection</li>
+            <li>❌ NO face-related data of any kind</li>
+        </ul>
+        
+        <p><strong>Technical Clarification:</strong> PersonaLens is a text-based personality analysis tool that processes chat conversations. It does not use computer vision, facial recognition algorithms, camera access, or any technology that would interact with face data. The app operates entirely on textual communication data.</p>
+    </div>
 
-    <h3>2.1 WhatsApp Chat Data</h3>
+    <h2>3. Information We Collect</h2>
+
+    <h3>3.1 WhatsApp Chat Data</h3>
     <div class="important">
         <strong>Privacy Protection:</strong> Your original WhatsApp chat files remain entirely on your device and are never uploaded or transmitted to our servers.
     </div>
@@ -107,7 +139,7 @@
         <li><strong>Media References:</strong> We note when media was shared but do not process the actual media content</li>
     </ul>
 
-    <h3>2.2 Analytics and Usage Data (Firebase Analytics)</h3>
+    <h3>3.2 Analytics and Usage Data (Firebase Analytics)</h3>
     <p>We use Firebase Analytics by Google to understand how you use our app and improve our services. This includes:</p>
     <ul>
         <li><strong>App Usage Patterns:</strong> Which screens you visit, time spent in app, feature usage</li>
@@ -119,7 +151,7 @@
         <li><strong>Subscription Events:</strong> Purchase attempts, subscription lifecycle events</li>
     </ul>
 
-    <h3>2.3 Processed Analysis Data</h3>
+    <h3>3.3 Processed Analysis Data</h3>
     <p>For personality analysis, we send only optimized and anonymized versions of your chat data:</p>
     <ul>
         <li><strong>Anonymized Chat Content:</strong> Messages with real names replaced by generic identifiers (User1, User2)</li>
@@ -127,7 +159,7 @@
         <li><strong>Processing Metadata:</strong> Token counts, sampling information, analysis parameters</li>
     </ul>
 
-    <h3>2.4 Device Information</h3>
+    <h3>3.4 Device Information</h3>
     <ul>
         <li><strong>Device Identifiers:</strong> For subscription validation and app functionality</li>
         <li><strong>Operating System:</strong> iOS/Android version for compatibility</li>
@@ -135,14 +167,14 @@
         <li><strong>Network Information:</strong> For API communication (no browsing history)</li>
     </ul>
 
-    <h3>2.5 Subscription Information</h3>
+    <h3>3.5 Subscription Information</h3>
     <ul>
         <li><strong>Purchase Data:</strong> Subscription status, purchase receipts, renewal dates</li>
         <li><strong>Billing Information:</strong> Handled entirely by Apple App Store or Google Play Store</li>
         <li><strong>Entitlements:</strong> Which features you have access to</li>
     </ul>
 
-    <h2>3. How We Use Your Information</h2>
+    <h2>4. How We Use Your Information</h2>
 
     <table>
         <tr>
@@ -182,9 +214,9 @@
         </tr>
     </table>
 
-    <h2>4. Third-Party Services</h2>
+    <h2>5. Third-Party Services</h2>
 
-    <h3>4.1 Firebase Analytics (Google)</h3>
+    <h3>5.1 Firebase Analytics (Google)</h3>
     <ul>
         <li><strong>Purpose:</strong> App usage analytics, performance monitoring, crash reporting</li>
         <li><strong>Data Shared:</strong> Device identifiers, usage patterns, app events, performance metrics</li>
@@ -193,7 +225,7 @@
         <li><strong>Opt-out:</strong> You can disable analytics in your device settings</li>
     </ul>
 
-    <h3>4.2 AWS (Analysis Processing)</h3>
+    <h3>5.2 AWS (Analysis Processing)</h3>
     <ul>
         <li><strong>Purpose:</strong> Processes anonymized chat data for personality analysis and image generation</li>
         <li><strong>Data Shared:</strong> Anonymized chat content, processing metadata</li>
@@ -201,23 +233,23 @@
         <li><strong>Location:</strong> AWS US-East-1 region</li>
     </ul>
 
-    <h3>4.3 RevenueCat (Subscription Management)</h3>
+    <h3>5.3 RevenueCat (Subscription Management)</h3>
     <ul>
         <li><strong>Purpose:</strong> Handles subscription purchases and validation</li>
         <li><strong>Data Shared:</strong> Device identifiers, purchase receipts, subscription status</li>
         <li><strong>Privacy:</strong> No personal conversation data is shared</li>
     </ul>
 
-    <h3>4.4 Apple App Store / Google Play Store</h3>
+    <h3>5.4 Apple App Store / Google Play Store</h3>
     <ul>
         <li><strong>Purpose:</strong> App distribution and payment processing</li>
         <li><strong>Data Shared:</strong> Standard platform analytics and purchase information</li>
         <li><strong>Control:</strong> Standard platform policies apply</li>
     </ul>
 
-    <h2>5. Data Protection and Security</h2>
+    <h2>6. Data Protection and Security</h2>
 
-    <h3>5.1 Local Storage (Your Device)</h3>
+    <h3>6.1 Local Storage (Your Device)</h3>
     <div class="important">
         <strong>Local-First Approach:</strong> The majority of your data is stored locally on your device using secure, encrypted storage.
     </div>
@@ -228,7 +260,7 @@
         <li><strong>App Settings:</strong> Stored securely on your device</li>
     </ul>
 
-    <h3>5.2 Security Measures</h3>
+    <h3>6.2 Security Measures</h3>
     <ul>
         <li><strong>Encryption in Transit:</strong> All network communications use HTTPS/TLS</li>
         <li><strong>Encryption at Rest:</strong> Local storage is encrypted</li>
@@ -237,16 +269,16 @@
         <li><strong>Secure APIs:</strong> Authentication and rate limiting on all API endpoints</li>
     </ul>
 
-    <h2>6. Your Rights and Controls</h2>
+    <h2>7. Your Rights and Controls</h2>
 
-    <h3>6.1 Analytics Opt-Out</h3>
+    <h3>7.1 Analytics Opt-Out</h3>
     <ul>
         <li><strong>Firebase Analytics:</strong> Can be disabled through your device's privacy settings</li>
         <li><strong>App-Level Control:</strong> Contact us to disable analytics for your account</li>
         <li><strong>Limited Impact:</strong> Core app functionality remains available without analytics</li>
     </ul>
 
-    <h3>6.2 Data Access and Deletion</h3>
+    <h3>7.2 Data Access and Deletion</h3>
     <ul>
         <li><strong>Report Export:</strong> You can export your analysis reports at any time</li>
         <li><strong>Complete Deletion:</strong> Delete all PersonaLens data from your device</li>
@@ -254,7 +286,7 @@
         <li><strong>Automatic Cleanup:</strong> Temporary processing data is automatically removed</li>
     </ul>
 
-    <h2>7. Data Retention</h2>
+    <h2>8. Data Retention</h2>
 
     <ul>
         <li><strong>Local Data:</strong> Stored until you choose to delete it</li>
@@ -263,13 +295,13 @@
         <li><strong>App Uninstall:</strong> All local data is removed when the app is uninstalled</li>
     </ul>
 
-    <h2>8. Children's Privacy</h2>
+    <h2>9. Children's Privacy</h2>
     <p>PersonaLens is not directed to children under 13 years of age. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately.</p>
 
-    <h2>9. International Data Transfers</h2>
+    <h2>10. International Data Transfers</h2>
     <p>When you use PersonaLens, your anonymized data may be processed on servers located in the United States (AWS US-East-1 region) and analytics data may be processed by Google Firebase in various locations. We ensure appropriate safeguards are in place to protect your data during any international transfers.</p>
 
-    <h2>10. Changes to This Privacy Policy</h2>
+    <h2>11. Changes to This Privacy Policy</h2>
     <p>We may update our Privacy Policy from time to time. We will notify you of any material changes by:</p>
     <ul>
         <li>Posting the new Privacy Policy within the app</li>
@@ -277,7 +309,7 @@
         <li>Providing in-app notifications for significant changes</li>
     </ul>
 
-    <h2>11. Legal Compliance</h2>
+    <h2>12. Legal Compliance</h2>
     <p>This Privacy Policy is designed to comply with applicable privacy laws, including:</p>
     <ul>
         <li><strong>GDPR:</strong> European General Data Protection Regulation</li>
@@ -287,7 +319,7 @@
     </ul>
 
     <div class="contact">
-        <h2>12. Contact Us</h2>
+        <h2>13. Contact Us</h2>
         <p>If you have any questions about this Privacy Policy or our data practices, please contact us:</p>
         <ul>
             <li><strong>Email:</strong> yakuapps@gmail.com</li>
@@ -299,7 +331,7 @@
     </div>
 
     <div class="important">
-        <strong>Summary:</strong> PersonaLens prioritizes your privacy by keeping your original chat files on your device, anonymizing data before analysis, using industry-standard analytics tools responsibly, giving you complete control over your information, and being transparent about our data practices.
+        <strong>Summary:</strong> PersonaLens prioritizes your privacy by keeping your original chat files on your device, anonymizing data before analysis, using industry-standard analytics tools responsibly, giving you complete control over your information, and being transparent about our data practices. PersonaLens does not collect, process, or store any face data.
     </div>
 </body>
 </html>
